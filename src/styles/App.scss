@@ -1,0 +1,137 @@
+
+
+.bg-offwhite {
+  background-color: #F5F5F5;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.header-container {
+  padding: 0 !important;
+  margin: 0;
+  display: block !important;
+}
+
+.header {
+  padding: 10px !important;
+  height: 56.83px;
+  background-color: #252F3D !important;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 294px !important;
+  height: 32px !important;
+  padding: 0 !important;
+  padding-left: 166px !important;
+}
+
+.form-container {
+  height: 100vh !important;
+  width: 502px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-title {
+  
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  color: #2C3642 !important;
+  align-self: self-start;
+  margin-left: -45px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 502px;
+  height: 750px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-control {
+  width: 422px !important;
+  margin-top: 10px !important;
+  
+}
+
+.text-field {
+  border: 1px solid #A5B6CD !important;
+  font-weight: 400;
+  font-size: 18px !important;
+  line-height: 27px;
+  letter-spacing: 2%;
+  border-radius: 4px;
+  color: #4D5C6F !important;
+}
+
+.margin-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #333333 !important;
+
+}
+
+.button-group {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 15px !important;
+  width: 145px;
+  height: 46px;
+  border-radius: 6px;
+}
+
+.cancel-btn {
+  border: 1px solid #4790A1 !important;
+  color: #4790A1 !important;
+  background-color: white !important;
+}
+
+.submit-btn {
+  background-color: #127C95 !important;
+  color: white !important;
+  text-transform: none;
+}
+
+.register-alert{
+  position: relative;
+  top: 77px;
+  left: 483px;
+  width: Hug(426px);
+  height: Hug(76px);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  padding: 24px 32px 24px 32px;
+  text-align: center;
+}
+
+.register-alert-error {
+  background-color: #FFC0C0;
+}
+
+.register-alert-success {
+  background-color: #CDFADC;
+}
