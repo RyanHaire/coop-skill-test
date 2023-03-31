@@ -108,7 +108,7 @@ function App() {
   const handleConfirmPassword = (e) => {
     const val = e.target.value.trim();
       
-    if(val == password){
+    if(val === password){
       setConfirmPasswordError(false);
     } else {
       setConfirmPasswordError(true);
@@ -121,7 +121,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if(fullName == "") {
+    if(fullName === "") {
       setFullNameError(true);
       setFullNameErrorText('Sorry, this full name is invalid. Please try again.');
   
@@ -129,35 +129,35 @@ function App() {
       setFullNameError(false);
     }
 
-    if(contactNumber == ""){
+    if(contactNumber === ""){
       setContactNumberError(true);
       setContactNumberErrorText('Sorry, this contact number is invalid. Please try again.');
     } else {
       setContactNumberError(false);
     }
 
-    if(email == "") {
+    if(email === "") {
       setEmailError(true);
       setEmailErrorText('Sorry, this email address is invalid. Please try again.');
     } else {
       setEmailError(false);
     }
 
-    if(dob == ""){
+    if(dob === ""){
       setDobError(true);
       setDobErrorText('Sorry, this date of birth is invalid. Please try again.');
     } else {
       setDobError(false);
     }
 
-    if(password == ""){
+    if(password === ""){
       setPasswordError(true);
       setPasswordErrorText('Sorry, this password is invalid. Please try again.');
     } else {
       setPasswordError(false);
     }
 
-    if(confirmPassword == ""){
+    if(confirmPassword === ""){
       setConfirmPasswordError(true);
       setConfirmPasswordErrorText('Sorry, this password is invalid. Please try again.');
     } else {
@@ -192,8 +192,8 @@ function App() {
 
       <Container className="form-container">
       {formSubmitted && 
-          <p className={`register-alert ${responseStatus == 200 ? "register-alert-success": "register-alert-error"}`}>
-            {responseStatus == 200 ? 
+          <p className={`register-alert ${responseStatus === 200 ? "register-alert-success": "register-alert-error"}`}>
+            {responseStatus === 200 ? 
               <><img src={SuccessImg}/> User account successfully created.</>
               : <>X There was an error creating the account.</>} 
           </p>

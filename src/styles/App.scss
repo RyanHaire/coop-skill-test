@@ -1,7 +1,7 @@
 
 
 .bg-offwhite {
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
   height: 100vh;
   overflow-x: hidden;
 }
@@ -23,7 +23,7 @@
   width: 294px !important;
   height: 32px !important;
   padding: 0 !important;
-  padding-left: 166px !important;
+  padding-left: 75px !important;
 }
 
 .form-container {
@@ -42,7 +42,7 @@
   line-height: 30px !important;
   color: #2C3642 !important;
   align-self: self-start;
-  margin-left: -45px;
+  margin-left: -28px;
   margin-bottom: 10px;
 }
 
@@ -52,17 +52,19 @@
   align-items: center;
   justify-content: center;
   width: 502px;
-  height: 750px;
+  height: 690px;
   background-color: #FFFFFF;
-  padding: 20px;
   border-radius: 8px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .form-control {
   width: 422px !important;
+  height: Hug(83px) !important;
+}
+
+.margin-top-10 {
   margin-top: 10px !important;
-  
 }
 
 .text-field {
@@ -80,12 +82,17 @@
   margin-bottom: 10px;
 }
 
+.margin-bot-10 {
+  margin-bottom: 5px !important;
+}
+
 .form-label {
   font-weight: 700 !important;
   font-size: 16px !important;
   line-height: 24px !important;
   color: #333333 !important;
-
+  margin: 0 !important;
+  margin-top: 10px !important;
 }
 
 .button-group {
