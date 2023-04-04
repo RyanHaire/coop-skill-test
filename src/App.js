@@ -7,7 +7,7 @@ import Form from './components/Form';
 function App() {
 
   return (
-    <div className="bg-offwhite">
+    <div className="bg-white">
       <Header/>
       <Form/>
      
